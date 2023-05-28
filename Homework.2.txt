@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+<body>
+    
+
+    <!--the img tag has two atributes-->
+    <!--src specifies the path to the image-->
+    <!--the alt value describe the picture-->
+    
+    <img src="beut.png" alt="where is the text of this pic" style="width: 200px; height: 180;">
+    <br>
+    <!--also you can create like this altarnatively -->
+    <img src="beut.png" alt="this is the pic", width="220", height="150">
+     <!--the width and hight are defining the widthd and the hight of the picture-->
+<br>
+
+
+<p>linkg image</p>  <!--hadaan clikku dhaho waxey i gudbinee folder ka aan mesha ku specify gareey waxa ku jira-->
+     <a href="C:\Users\ALI\Desktop\html">
+        <img src="beut.png" alt="this is link image" width="50" height="50">
+     </a>
+     <hr>
+     <p>working on image maps</p>
+     <img src="workplace.jpg" alt="this is s workshop picture" usemap="#workmap"> 
+     <map name="workmap">
+        <area shape="circle" coords="337, 300, 44" alt="coffee" href="coffee.htm">
+        <area shape="rect" coords="34, 44, 270, 350" alt="computer"  href="computer.htm"> 
+        <area shape="rect" coords="290, 172, 333 250" alt="phone" href="phone.htm">
+     </map>
+     <hr>
+     <img src="fruits.jpg" usemap="#image_map">
+<map name="image_map">
+  <area alt="mango" href="mango.htm" coords="417,409,419,411" shape="rect">
+  <area alt="apple" href="apple.htm" coords="1229,559,1231,561" shape="rect">
+  <area alt="limon" href="limon.htm" coords="771,988,773,990" shape="rect">
+  <area alt="banana" href="banana.htm" coords="946,1375,948,1377" shape="rect">
+<hr>
+<p>working on color</p>
+<!--we can defind colors by using predefined name or with RGB, HEX, HSL, RGBA, or HSLA values.-->
+<p style="background-color: blueviolet; color: white;">this is for back-ground color</p>
+<p style="color: tomato;">this is for coloring a text and lets seeeeeeeeeee  iiiiiiiiiiit</p>
+
+<p style="border: 2px solid tomato;">let me see border 1</p>
+<p style="border: 2px solid dodgerblue;">let me see border 2</p>
+
+<p style="border: 2px solid red;">let me see the third border</p>
+
+
+<p style="background-color:rgb(255, 99, 71);">greaaaaaaaaaaaaaaaaat</p>
+<p style="background-color:#ff6347;">...</p>
+<p style="background-color:hsl(9, 100%, 64%);">sp cuuuuuuuuuuuuuuuuuuuuuute</p>
+
+<p style="background-color:rgba(255, 99, 71, 0.5);">extremly goooooooooooooooood</p>
+<p style="background-color:hsla(9, 100%, 64%, 0.5);">supereeeeeeeeeeeeeeeeb</p>
+
+
+</map>
+    </body>
+</html>

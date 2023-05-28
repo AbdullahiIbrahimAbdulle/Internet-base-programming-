@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!--this the Meta Information (author, description,
+generator, keywords) i-->
+
+         <meta charset="UTF-8">   <!--character coding-->
+    <meta name="author" content="ALI MUSE">  <!--specifies the author of the code-->
+    <meta name="description" content="This is a website about family">  <!--gives info abut your topic-->
+    <meta name="generator" content="fmaly_webGenator"> <!--pecifies the generator or software used to create the web page.-->
+    <meta name="keywords" content="recipe, healthy, cooking, food">  <!--tag defines the keywords or terms associated with the web page's content.-->
+    <title>HTML5 Imputs and meta info</title>
+    </head>
+
+    <body>
+        <!--sed to include additional information or parameters in a form submission without showing them to the user.-->
+        <form action="">
+            <label for="">
+        <input type="hidden" name="for_security_code" value="876243">
+    </label>
+
+
+              <label for="email"> ENTER EMAIL</label>
+        <input type="email" id="email" name="email" value="cicfantastic@gmail.com">
+    
+        <br>
+        <label for="tel_number">ENTER PHONE</label>
+        <input type="tel" id="tel_number" name="tel_number" value="5317439622">
+        <br>
+        <label for="for_number">ENTER NUMB</label>
+        <input type="number" id="for_number" name="number" value="53">
+
+        <br>
+        <label for="volume">VOLUME</label>
+        <input type="range" id="volume" name="range" min="1" max="10" value="7">   <!--the range input will be displayed with the slider handle positioned at the default value of 7-->
+    <br>
+           <label for="forsearch">SEARCH</label>
+        <input type="search" name="searching" id="search" placeholder="enter what you want to search">  <!--alternativly we can use placeholder but it will dispalay in the input-->
+        <br>
+        <label for="for_img">Image Input</label>
+        <input type="image" id="img">
+
+    <br>
+    <label for="forweek"WEEK></label>
+    <input type="week" name="week" id="forweek">
+<br>
+    <label for="website_url">Website URL:</label>
+        <input type="url" id="website_url" name="website_url">
+
+        <br>
+
+        <label for="meeting_datetime">Date and Time:</label>
+        <input type="datetime-local" id="meeting_datetime" name="meeting_datetime">
+<br>
+        <label for="formonth">MONTH</label>
+        <input type="month" id="formonth">
+        <br>
+    <label for="time">TIME</label>
+        <input type="time" id="time">
+
+    </form>
+
+    </body>
+</html>

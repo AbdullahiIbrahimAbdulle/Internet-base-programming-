@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+</head>
+<body>
+  <form action="form1.html" method="get" target="_self">
+    <label for="NAME">Name:</label>
+    <input type="text" id="NAME" name="name">
+    <br>
+    <br>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="email">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <form action="form2.html" method="post" target="_top">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <br>
+    <label for="passw">Password:</label>
+    <input type="password" id="passw" name="password" required>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+
+
+
+<!-- • Addition HW: Implement a simple canvas application in HTML5 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Example</title>
+  <style>
+    #canvas {
+      border: 1px solid brown;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas" width="350" height="250"></canvas>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(50, 50, 100, 75);  // Draw a rectangle
+
+ 
+    ctx.beginPath();
+    ctx.arc(350, 250, 100, 0, 3 * Math.PI);
+    ctx.fillStyle = 'red';
+    ctx.fill();                                  // Draw a circle
+
+   
+    ctx.font = '24px Arial';
+    ctx.fillStyle = 'black';
+    ctx.fillText('Hello, Canvas!', 250, 360);
+                                                        // Draw text
+  </script>
+</body>
+</html>

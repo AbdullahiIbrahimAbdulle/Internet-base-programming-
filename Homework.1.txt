@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <!--this is the link that clicks on the same page-->
+    <a href="#abouts me">click on me</a>
+    <br>   
+    <!--this for making call by phone the number is sample only.  you can use country code + the remaining number and using tel protocol-->
+    <A href="tel: +905532222">call me by phone</A>
+    <br>
+    <!--a link that runs javascript-->
+    <a href="#" onclick="alert('hi , ali')">click on ali</a>
+<br>
+
+    <a href="mailto: emailName@gamil.com">message me on email</a>
+    <br>
+    
+    <a href="https://www.karabuk.edu.tr/en/" target="_blank">click karabuk link</a>
+
+</html>
